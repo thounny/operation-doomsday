@@ -1,0 +1,33 @@
+.protocolParagarph {
+    text-align: center;
+    background-color: #bcaf82;
+    width: 70%;
+    border: 5px solid #c2968e;
+    border-radius: 10px;
+
+    /* Center horizontally*/
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #c2968e;
+}
+
+body {
+    background-color: #6f672f;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+}
+
+/* 
+color scheme
+pink: #c2968e 
+green: #6f672f
+yellow, beige-ish #bcaf82
+blue: #28facb 
+
+
+
+
+
+*/
