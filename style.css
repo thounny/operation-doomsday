@@ -19,6 +19,48 @@ body {
     font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
 }
 
+[class^="cursor"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.cursor-outer {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #000;
+    background: #fff;
+    transition: all .05s ease-out;
+}
+
+.cursor-inner {
+    width: 15px;
+    height: 15px;
+    background: #000;
+
+}
+
+.content:hover~.cursor-outer {
+    background: #fff;
+    opacity: 0;
+}
+
+.content:hover~.cursor-inner {
+    opacity: 0;
+    mix-blend-mode: difference;
+}
+
+.test {
+    background: gray;
+    width: 200px;
+    height: 200px;
+    cursor: url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+}
+
 /* 
 color scheme
 pink: #c2968e 
