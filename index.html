@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Doomsday Protocol</title>
+<<<<<<< HEAD:templates/index.html
+=======
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+    </style>
+>>>>>>> e851bb2695399cf6db4436b6378fbf0e1b842f05:index.html
     <link rel="stylesheet" href="yurt.css">
 </head>
 
@@ -13,7 +19,7 @@
     <div class="nav-wrapper">
         <nav>
             <a href="#" class="hover-this"><span>Home</span></a>
-            <a href="#" class="hover-this"><span>About</span></a>
+            <a href="theProtocol.html" class="hover-this"><span>About</span></a>
             <a href="#" class="hover-this"><span>Music</span></a>
             <a href="#" class="hover-this"><span>Projects</span></a>
             <div class="cursor"></div>
@@ -21,11 +27,11 @@
     </div>
 
     <script>
-        (function() {
+        (function () {
             const link = document.querySelectorAll('nav > .hover-this');
             const cursor = document.querySelector('.cursor');
 
-            const animateit = function(e) {
+            const animateit = function (e) {
                 const span = this.querySelector('span');
                 const {
                     offsetX: x,
@@ -35,7 +41,7 @@
                     offsetHeight: height
                 } = this,
 
-                move = 25,
+                    move = 25,
                     xMove = x / width * (move * 2) - move,
                     yMove = y / height * (move * 2) - move;
 
