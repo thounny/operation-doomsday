@@ -44,7 +44,7 @@ span {
     pointer-events: none;
     position: fixed;
     padding: 0.3rem;
-    background-color: #fff;
+    background-color: palevioletred;
     border-radius: 50%;
     mix-blend-mode: difference;
     transition: transform 0.3s ease;
