@@ -41,7 +41,7 @@ body {
 	right: 140px;
 	line-height: 80px;
 	margin: 0 40px;
-	color: grey;
+	color: white;
 	padding: 0 10px;
 	font-family: Helvetica;
 	font-size: 12px;
@@ -172,7 +172,7 @@ body {
 }
 
 .hero-title p {
-	color: grey;
+	color: white;
 	font-family: Helvetica;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -188,7 +188,7 @@ body {
 .social-media ul li {
 	display: inline-block;
 	list-style: none;
-	color: grey;
+	color: white;
 	padding: 0 10px;
 	font-family: Helvetica;
 	font-size: 12px;
