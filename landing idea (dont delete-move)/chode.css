@@ -32,7 +32,7 @@ body {
 	position: fixed;
 	line-height: 80px;
 	margin: 0 40px;
-	color: #fff;
+	color: #57A773;
 }
 
 .watch {
@@ -41,7 +41,7 @@ body {
 	right: 140px;
 	line-height: 80px;
 	margin: 0 40px;
-	color: white;
+	color: #57A773;
 	padding: 0 10px;
 	font-family: Helvetica;
 	font-size: 12px;
@@ -56,6 +56,19 @@ body {
 	padding-right: 6px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:active {
+	color: #57A773;
+
+}
+
+a:visited {
+	color: #57A773;
+}
+
 .menu {
 	z-index: 2;
 	position: fixed;
@@ -63,7 +76,7 @@ body {
 	font-size: 20px;
 	line-height: 80px;
 	margin: 0 40px;
-	color: #fff;
+	color: #57A773;
 	padding-top: 4px;
 }
 
@@ -74,8 +87,7 @@ body {
 	transform: translate(-50%, -50%);
 	width: 48vw;
 	height: 46vh;
-	background: url(https://d2w9rnfcy7mm78.cloudfront.net/6781373/original_3504b9de5818113b42598ce30ef2da0c.gif?1586379184)
-		no-repeat 50% 50%;
+	background: url(https://d2w9rnfcy7mm78.cloudfront.net/6781373/original_3504b9de5818113b42598ce30ef2da0c.gif?1586379184) no-repeat 50% 50%;
 	background-size: cover;
 	animation-delay: 2s;
 	-webkit-animation: animateGIF 4s cubic-bezier(0, .58, 1, .58);
@@ -107,7 +119,7 @@ body {
 }
 
 .hero-title h1 {
-	color: red;
+	color: #57A773;
 	text-transform: uppercase;
 	font-size: 80px;
 	margin-bottom: 0%;
@@ -115,6 +127,7 @@ body {
 
 .glitch {
 	position: relative;
+	color: 57A773;
 }
 
 .glitch::before,
@@ -129,12 +142,13 @@ body {
 
 .glitch::before {
 	left: 4px;
-	text-shadow: -31px 0 rgb(0, 174, 255);
+	text-shadow: -31px 0 #D1FAFF;
 	background: black;
 }
+
 .glitch::after {
 	left: -3px;
-	text-shadow: -3px 0 blue;
+	text-shadow: -3px 0 #6A8EAE;
 	background: black;
 }
 
@@ -146,18 +160,23 @@ body {
 	0% {
 		clip-path: inset(40% 0 61% 0);
 	}
+
 	20% {
 		clip-path: inset(92% 0 1% 0);
 	}
+
 	40% {
 		clip-path: inset(43% 0 1% 0);
 	}
+
 	60% {
 		clip-path: inset(25% 0 58% 0);
 	}
+
 	80% {
 		clip-path: inset(54% 0 7% 0);
 	}
+
 	100% {
 		clip-path: inset(58% 0 43% 0);
 	}
@@ -210,7 +229,7 @@ body {
 }
 
 #rotated {
-	color: #fff;
+	color: #57A773;
 	font-family: Helvetica;
 	font-weight: 100;
 	font-size: 12px;
@@ -224,16 +243,31 @@ body {
 	animation: rotating 20s linear infinite;
 }
 
+.social_link {
+	color: #57A773;
+}
+
+.social_link:hover {
+	background-color: #6A8EAE;
+	color: #D1FAFF;
+}
+
+.protocol {
+	color: #6A8EAE;
+}
+
 @keyframes rotating {
 	from {
 		transform: rotate(0deg);
 	}
+
 	to {
 		transform: rotate(360deg);
 	}
 }
 
 @media (max-width: 900px) {
+
 	.watch,
 	.rotatethis,
 	.hero-title p,
