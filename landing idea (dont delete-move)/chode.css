@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
 html,
 body {
 	margin: 0%;
 	padding: 0%;
 	width: 100%;
 	height: 100vh;
-	font-family: "Monument Extended";
+	font-family: "Libre Baskerville";
 	background: url(https://media.giphy.com/media/3oEduMhFrYvKk4giac/giphy.gif) no-repeat 50% 50%;
 	background-size: cover;
 	text-transform: uppercase;
