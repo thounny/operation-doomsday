@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
 html,
 body {
     margin: 0;
@@ -29,7 +31,7 @@ nav {
 
 span {
     display: inline-block;
-    font-family: "Monument Extended";
+    font-family: 'Libre Baskerville'; /* wanted to use Monument Extended but don't know how to import custom fonts other than Google Fonts */
     font-weight: 300;
     color: #fff;
     font-size: 36px;
