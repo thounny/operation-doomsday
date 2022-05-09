@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
-        "animateit"
+        "animateit",
+        "gsap",
+        "rotatethis",
+        "videocam"
+    ],
+    "cSpell.ignoreWords": [
+        "listensong"
     ]
 }
