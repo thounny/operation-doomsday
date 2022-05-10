@@ -17,8 +17,7 @@ body {
 	box-sizing: border-box;
 }
 
-circle nav
-header {
+circle nav header {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -87,11 +86,11 @@ header {
 	margin: 0;
 }
 
-.header__menu > .header__menu-item {
+.header__menu>.header__menu-item {
 	font-size: 12vh;
 }
 
-.header__menu > .header__menu-item:not(:last-of-type) {
+.header__menu>.header__menu-item:not(:last-of-type) {
 	margin-bottom: 0em;
 }
 
@@ -148,16 +147,16 @@ header {
 	padding-right: 6px;
 }
 
-a {
+.social_link a {
 	text-decoration: none;
 }
 
-a:active {
+.social_link a:active {
 	color: #57A773;
 
 }
 
-a:visited {
+.social_link a:visited {
 	color: #57A773;
 }
 
