@@ -87,11 +87,11 @@ header {
 	margin: 0;
 }
 
-.header__menu > .header__menu-item {
+.header__menu>.header__menu-item {
 	font-size: 12vh;
 }
 
-.header__menu > .header__menu-item:not(:last-of-type) {
+.header__menu>.header__menu-item:not(:last-of-type) {
 	margin-bottom: 0em;
 }
 
@@ -102,6 +102,10 @@ header {
 	text-decoration: none;
 }
 
+.header__menu-item a:hover {
+	/* filter: grayscale(100%); */
+	color: #9bd1e5;
+}
 
 
 .gif-overlay {
@@ -345,7 +349,6 @@ header {
 }
 
 .social_link:hover {
-	background-color: #6A8EAE;
 	color: #D1FAFF;
 	text-decoration: none;
 }
