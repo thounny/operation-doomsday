@@ -1,27 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
-.protocolParagarph {
-    text-align: center;
-    background-color: #bcaf82;
-    width: 70%;
-    border: 5px solid #c2968e;
-    border-radius: 10px;
-
-    /* Center horizontally*/
-    margin: 0 auto;
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    font-family: "Libre Baskerville";
+    background-size: cover;
+    text-transform: uppercase;
 }
+
+.gif-overlay {
+    z-index: -1;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(14, 14, 14, 0.8);
+}
+
+
 
 h1 {
     font-family: 'Libre Baskerville';
     text-align: center;
-    color: #c2968e;
+    color: #57A773;
 }
 
 body {
-    background-color: #6f672f;
     font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
 }
 
+
+/* eye cursor
 [class^="cursor"] {
     position: fixed;
     top: 0;
@@ -62,7 +74,7 @@ body {
     width: 200px;
     height: 200px;
     cursor: url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
-}
+} */
 
 /* 
 color scheme
