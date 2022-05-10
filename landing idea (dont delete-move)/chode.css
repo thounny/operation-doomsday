@@ -288,7 +288,7 @@ header {
 
 .hero-title p {
 	color: white;
-	font-family: Helvetica;
+	font-family: "Libre Baskerville";
 	text-transform: uppercase;
 	font-size: 12px;
 	letter-spacing: 14px;
@@ -305,7 +305,7 @@ header {
 	list-style: none;
 	color: white;
 	padding: 0 10px;
-	font-family: Helvetica;
+	font-family: "Libre Baskerville";
 	font-size: 12px;
 	font-weight: 100;
 }
@@ -326,7 +326,7 @@ header {
 
 #rotated {
 	color: #57A773;
-	font-family: Helvetica;
+	font-family: "Libre Baskerville";
 	font-weight: 100;
 	font-size: 12px;
 }
