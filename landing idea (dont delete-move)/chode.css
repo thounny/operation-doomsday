@@ -98,7 +98,7 @@ header {
 .header__menu-item a {
 	letter-spacing: -4px;
 	font-weight: 300 !important;
-	color: #000;
+	color: #57A773;
 	text-decoration: none;
 }
 
@@ -139,6 +139,7 @@ header {
 	font-size: 12px;
 	font-weight: 100;
 	letter-spacing: 4px;
+	text-decoration: none;
 }
 
 .watch ion-icon {
