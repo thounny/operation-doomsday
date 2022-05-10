@@ -61,7 +61,7 @@ header {
 }
 
 .header__nav {
-	background-color: #000;
+	background-color: #57A773;
 	position: fixed;
 	overflow: hidden;
 	z-index: 2;
@@ -98,7 +98,7 @@ header {
 .header__menu-item a {
 	letter-spacing: -4px;
 	font-weight: 300 !important;
-	color: #57A773;
+	color: #000;
 	text-decoration: none;
 }
 
