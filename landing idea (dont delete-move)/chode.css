@@ -147,6 +147,7 @@ header {
 	position: relative;
 	top: 1px;
 	padding-right: 6px;
+	text-decoration: none;
 }
 
 .social_link a {
@@ -155,11 +156,12 @@ header {
 
 .social_link a:active {
 	color: #57A773;
-
+	text-decoration: none;
 }
 
 .social_link a:visited {
 	color: #57A773;
+	text-decoration: none;
 }
 
 .menu {
@@ -171,6 +173,7 @@ header {
 	margin: 0 40px;
 	color: #57A773;
 	padding-top: 4px;
+	text-decoration: none;
 }
 
 .hero-gif {
