@@ -148,16 +148,16 @@ header {
 	padding-right: 6px;
 }
 
-a {
+.social_link a {
 	text-decoration: none;
 }
 
-a:active {
+.social_link a:active {
 	color: #57A773;
 
 }
 
-a:visited {
+.social_link a:visited {
 	color: #57A773;
 }
 
