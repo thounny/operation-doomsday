@@ -13,6 +13,20 @@
 </head>
 
 <html>
+<body>
+    <header>
+        <div>
+            <button class="header__button nav-btn-js" type="button"></button>
+            <nav class="header__nav nav-js" data-active="false">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#">Home</a></li>
+                    <li class="header__menu-item"><a href="#">Team</a></li>
+                    <li class="header__menu-item"><a href="#">Music</a></li>
+                    <li class="header__menu-item"><a href="#">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 <div class="wrapper">
     <div class="hero-section">
         <div class="doomsday">the Doomsday Protocol</div>
@@ -21,9 +35,9 @@
                 <ion-icon name="play"></ion-icon> watch
             </a>
         </div>
-        <div class="menu">
+        <!-- <div class="menu">
             <ion-icon name="menu"></ion-icon>
-        </div>
+        </div> -->
     </div>
 
     <!-- if u wanna change the gifs just change background url in CSS -->
@@ -44,9 +58,9 @@
                 <ion-icon name="play"></ion-icon> watch
             </a>
         </div>
-        <div class="menu">
+        <!-- <div class="menu">
             <ion-icon name="menu"></ion-icon>
-        </div>
+        </div> -->
     </div>
     <!-- will link later -->
 
@@ -167,9 +181,26 @@
             }),
             clearProps: "all"
         });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const revealerNav = window.revealer({
+            revealElementSelector: ".nav-js",
+            options: {
+                anchorSelector: ".nav-btn-js"
+            }
+        });
 
-
-
+        const actionBtn = document.querySelector(".nav-btn-js");
+        actionBtn.addEventListener("click", () =>{
+            if(!revealerNav.isRevealed()) {
+                revealerNav.reveal();
+            } else {
+                revealerNav.hide();
+                actionBtn.setAttribute("data-open", false);
+            }
+        });
+    });
 </script>
 </body>
 
