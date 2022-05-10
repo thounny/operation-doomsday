@@ -341,11 +341,13 @@ header {
 
 .social_link {
 	color: #57A773;
+	text-decoration: none;
 }
 
 .social_link:hover {
 	background-color: #6A8EAE;
 	color: #D1FAFF;
+	text-decoration: none;
 }
 
 .protocol {
