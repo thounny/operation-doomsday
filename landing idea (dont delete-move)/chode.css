@@ -17,18 +17,19 @@ body {
 	box-sizing: border-box;
 }
 
-circle nav header {
+/* circle nav */
+header {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
 }
 
 .header__button {
-	z-index: 2;
+	z-index: 3;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-color: #c6e421;
+	background-color: #57A773;
 	border: 0;
 	cursor: pointer;
 	position: absolute;
@@ -60,10 +61,10 @@ circle nav header {
 }
 
 .header__nav {
-	background-color: #c6e421;
+	background-color: #000;
 	position: fixed;
 	overflow: hidden;
-	z-index: 1;
+	z-index: 2;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -86,11 +87,11 @@ circle nav header {
 	margin: 0;
 }
 
-.header__menu>.header__menu-item {
+.header__menu > .header__menu-item {
 	font-size: 12vh;
 }
 
-.header__menu>.header__menu-item:not(:last-of-type) {
+.header__menu > .header__menu-item:not(:last-of-type) {
 	margin-bottom: 0em;
 }
 
@@ -119,7 +120,7 @@ circle nav header {
 }
 
 .doomsday {
-	z-index: 2;
+	z-index: 1;
 	position: fixed;
 	line-height: 80px;
 	margin: 0 40px;
@@ -127,7 +128,7 @@ circle nav header {
 }
 
 .watch {
-	z-index: 2;
+	z-index: 1;
 	position: fixed;
 	right: 140px;
 	line-height: 80px;
