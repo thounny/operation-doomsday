@@ -7,5 +7,6 @@
     ],
     "cSpell.ignoreWords": [
         "listensong"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

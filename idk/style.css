@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    font-family: "Libre Baskerville";
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.gif-overlay {
+    z-index: -1;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(14, 14, 14, 0.8);
+}
+
+
+
+h1 {
+    font-family: 'Libre Baskerville';
+    text-align: center;
+    color: #57A773;
+}
+
+body {
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+}
+
+
+/* eye cursor
+[class^="cursor"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.cursor-outer {
+    width: 80px;
+    height: 50px;
+    border: 3px solid #000;
+    background: #fff;
+    transition: all .05s ease-out;
+}
+
+.cursor-inner {
+    width: 15px;
+    height: 15px;
+    background: #000;
+
+}
+
+.content:hover~.cursor-outer {
+    background: #fff;
+    opacity: 0;
+}
+
+.content:hover~.cursor-inner {
+    opacity: 0;
+    mix-blend-mode: difference;
+}
+
+.test {
+    background: gray;
+    width: 200px;
+    height: 200px;
+    cursor: url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+} */
+
+/* 
+color scheme
+pink: #c2968e 
+green: #6f672f
+yellow, beige-ish #bcaf82
+blue: #28facb 
+
+
+
+
+
+*/
