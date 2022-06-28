@@ -7,6 +7,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
+* {
+	cursor: none;
+}
+
 html,
 body {
 	margin: 0%;
@@ -26,6 +30,18 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	box-sizing: border-box;
+}
+
+/* cursor */
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    padding: 0.5rem;
+    background-color: palevioletred;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: transform 0.3s ease;
+	z-index: 7;
 }
 
 /* circle nav */
