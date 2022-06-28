@@ -14,7 +14,11 @@ body {
 	width: 100%;
 	height: 100vh;
 	font-family: "Monument Extended";
-	background: url(https://media.giphy.com/media/3oEduMhFrYvKk4giac/giphy.gif) no-repeat 50% 50%;
+	/* background: url(https://media.giphy.com/media/3oEduMhFrYvKk4giac/giphy.gif) no-repeat 50% 50%; */
+	/* background: url(https://media.giphy.com/media/l41lSUaR02JWGtvQQ/giphy.gif) no-repeat 50% 50%; */
+	background: url(https://media.giphy.com/media/3oEdv4M6j5vmuxZ4eA/giphy.gif) no-repeat 50% 50%;
+	/* background: url(https://media.giphy.com/media/3oEdv3HJyXrs2bWheU/giphy.gif) no-repeat 50% 50%; */
+	/* background: url(https://media.giphy.com/media/NXTHnknOQKMItz1j9c/giphy-downsized-large.gif) no-repeat 50% 50%; */
 	background-size: cover;
 	text-transform: uppercase;
 	overflow: hidden;
@@ -33,9 +37,9 @@ header {
 
 .header__button {
 	z-index: 3;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border-radius: 25%;
 	background-color: #57A773;
 	border: 0;
 	cursor: pointer;
@@ -46,10 +50,24 @@ header {
 	outline: none;
 	animation-duration: 300ms;
 	animation-timing-function: ease;
+	font-family: Monument Extended;
+	mix-blend-mode:exclusion;
+}
+
+img {
+	width: 60px;
+	height: 60px;
+	margin-left: -11.5px;
+	margin-top: -6px;
+}
+
+.header__button:hover {
+	filter: invert();
 }
 
 .header__button[data-open="true"] {
 	background-color: #000;
+	background: url(https://media.giphy.com/media/3oEdv3HJyXrs2bWheU/giphy.gif) no-repeat 50% 50%;
 	animation-name: scale;
 }
 
@@ -69,6 +87,8 @@ header {
 
 .header__nav {
 	background-color: #57A773;
+	background: url(https://media.giphy.com/media/3ohs4nsg2WyigiHYbu/giphy.gif) no-repeat 50% 50%;
+	background-size: cover;
 	position: fixed;
 	overflow: hidden;
 	z-index: 2;
@@ -107,6 +127,8 @@ header {
 	font-weight: 300 !important;
 	color: #000;
 	text-decoration: none;
+	line-height: 150px;
+	margin-left: 20px;
 }
 
 .header__menu-item a:hover {
@@ -222,7 +244,7 @@ header {
 	top: 40%;
 	left: 35.5%;
 	transform: translate(-50%, -50%);
-	mix-blend-mode: difference;
+	mix-blend-mode: exclusion;
 }
 
 .hero-title h1 {
@@ -340,14 +362,16 @@ header {
 	font-family: "Monument Extended";
 	font-weight: 100;
 	font-size: 12px;
+	letter-spacing: 7px;
 }
 
 .rotatethis {
 	position: absolute;
-	top: 40%;
+	top: 33%;
 	left: 74%;
 	transform: translate(-50%, -50%);
 	animation: rotating 20s linear infinite;
+	mix-blend-mode: exclusion;
 }
 
 .social_link {
@@ -390,6 +414,19 @@ header {
 
 	.hero-title h1 {
 		font-size: 32px;
+	}
+
+	.social-media {
+		left: 50px;
+	}
+	.header__menu-item a {
+		letter-spacing: 1px;
+		font-weight: 300 !important;
+		color: #000;
+		text-decoration: none;
+		line-height: 100px;
+		margin-left: 20px;
+		font-size: 40px;
 	}
 }
 
