@@ -439,6 +439,9 @@ img {
 		font-size: 10px;
 		left: -30px;
 	}
+	.img {
+		margin-left: -15px;
+	}
 
 	.social-media {
 		left: 20px;
