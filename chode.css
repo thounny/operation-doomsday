@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Monument Extended"),
+        url("https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff") format("woff");
+}
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 html,
@@ -6,7 +13,7 @@ body {
 	padding: 0%;
 	width: 100%;
 	height: 100vh;
-	font-family: "Libre Baskerville";
+	font-family: "Monument Extended";
 	background: url(https://media.giphy.com/media/3oEduMhFrYvKk4giac/giphy.gif) no-repeat 50% 50%;
 	background-size: cover;
 	text-transform: uppercase;
@@ -187,13 +194,13 @@ header {
 	transform: translate(-50%, -50%);
 	width: 48vw;
 	height: 46vh;
-	background: url(https://d2w9rnfcy7mm78.cloudfront.net/6781373/original_3504b9de5818113b42598ce30ef2da0c.gif?1586379184) no-repeat 50% 50%;
+	background: url(/hero2.gif) no-repeat 50% 50%;
 	background-size: cover;
 	animation-delay: 2s;
 	-webkit-animation: animateGIF 4s cubic-bezier(0, .58, 1, .58);
 }
 
-@-webkit-keyframes animateGIF {
+@keyframes animateGIF {
 	0% {
 		width: 100%;
 		height: 100%;
@@ -213,7 +220,7 @@ header {
 .hero-title {
 	position: absolute;
 	top: 40%;
-	left: 38%;
+	left: 35.5%;
 	transform: translate(-50%, -50%);
 	mix-blend-mode: difference;
 }
@@ -330,14 +337,14 @@ header {
 
 #rotated {
 	color: #57A773;
-	font-family: "Libre Baskerville";
+	font-family: "Monument Extended";
 	font-weight: 100;
 	font-size: 12px;
 }
 
 .rotatethis {
 	position: absolute;
-	top: 54%;
+	top: 40%;
 	left: 74%;
 	transform: translate(-50%, -50%);
 	animation: rotating 20s linear infinite;
