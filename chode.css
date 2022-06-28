@@ -423,6 +423,10 @@ img {
 		display: none !important;
 	}
 
+	.cursor{
+		visibility: hidden;
+	}
+
 	.hero-title {
 		top: 45%;
 		left: 50%;
@@ -431,9 +435,13 @@ img {
 	.hero-title h1 {
 		font-size: 32px;
 	}
+	.doomsday{
+		font-size: 10px;
+		left: -30px;
+	}
 
 	.social-media {
-		left: 50px;
+		left: 20px;
 	}
 	.header__menu-item a {
 		letter-spacing: 1px;
