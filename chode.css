@@ -456,5 +456,10 @@ img {
 		margin-left: 20px;
 		font-size: 40px;
 	}
+	.header__button[data-open="false"] {
+		transition: background-color 250ms linear;
+		margin-top: 50px;
+		margin-right: 20px;
+	}
 }
 
