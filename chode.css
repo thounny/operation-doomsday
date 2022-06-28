@@ -73,7 +73,7 @@ img {
 	width: 60px;
 	height: 60px;
 	margin-left: -6px;
-	margin-top: -6px;
+	margin-top: -5px;
 }
 
 .header__button:hover {
@@ -88,6 +88,8 @@ img {
 
 .header__button[data-open="false"] {
 	transition: background-color 250ms linear;
+	margin-top: 50px;
+	margin-right: 60px;
 }
 
 @keyframes scale {
