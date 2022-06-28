@@ -19,8 +19,8 @@ body {
 	height: 100vh;
 	font-family: "Monument Extended";
 	/* background: url(https://media.giphy.com/media/3oEduMhFrYvKk4giac/giphy.gif) no-repeat 50% 50%; */
-	/* background: url(https://media.giphy.com/media/l41lSUaR02JWGtvQQ/giphy.gif) no-repeat 50% 50%; */
-	background: url(https://media.giphy.com/media/3oEdv4M6j5vmuxZ4eA/giphy.gif) no-repeat 50% 50%;
+	background: url(https://media.giphy.com/media/l41lSUaR02JWGtvQQ/giphy.gif) no-repeat 50% 50%;
+	/* background: url(https://media.giphy.com/media/3oEdv4M6j5vmuxZ4eA/giphy.gif) no-repeat 50% 50%; */
 	/* background: url(https://media.giphy.com/media/3oEdv3HJyXrs2bWheU/giphy.gif) no-repeat 50% 50%; */
 	/* background: url(https://media.giphy.com/media/NXTHnknOQKMItz1j9c/giphy-downsized-large.gif) no-repeat 50% 50%; */
 	background-size: cover;
@@ -111,7 +111,7 @@ img {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	box-sizing: border-box;
 	-webkit-padding-start: 40px 30px;
 	display: flex;
@@ -415,7 +415,7 @@ img {
 }
 
 @media (max-width: 900px) {
-
+	.cursor
 	.watch,
 	.rotatethis,
 	.hero-title p,
